@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shree Gopal Mithai Bhandar, Basti | Fresh Desi Ghee Sweets Since 1987</title>
+<meta name="description" content="Fresh desi ghee mithai, namkeen and festival boxes at Station Road, Basti. Order on WhatsApp or call. Open daily 7 AM to 10 PM.">
+<meta name="theme-color" content="#7A1F1F">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23E8890C'/%3E%3Ccircle cx='50' cy='50' r='16' fill='%237A1F1F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F0E3;--bg2:#EFE4CD;--ink:#231F1C;--accent:#E8890C;--maroon:#7A1F1F;--leaf:#4B5D2A;--r:18px;--serif:'Fraunces',Georgia,serif;--sans:'Manrope',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);line-height:1.12;font-weight:700}
+h2{font-size:clamp(2rem,4.5vw,3.2rem);margin-bottom:14px}
+.wrap{width:min(1180px,92%);margin:0 auto}
+section{padding:110px 0}
+.eyebrow{display:flex;align-items:center;gap:10px;font-weight:700;font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:var(--maroon);margin-bottom:14px}
+.eyebrow svg{width:22px;height:22px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 24px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--maroon);font-size:1rem;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.fill{background:var(--maroon);color:var(--bg)}
+.btn.line{color:var(--maroon);background:transparent}
+.btn.sm{padding:8px 16px;font-size:.88rem}
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:2px solid var(--ink)}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:14px;height:72px}
+.logo{font-family:var(--serif);font-weight:700;font-size:1.2rem;text-decoration:none;display:flex;align-items:center;gap:8px;line-height:1.1}
+.logo svg{width:30px;height:30px;flex:none}
+nav ul{display:flex;gap:24px;list-style:none}
+nav a{text-decoration:none;font-weight:500;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+.hcta{display:flex;gap:8px;align-items:center}
+.burger{display:none;background:none;border:2px solid var(--ink);border-radius:10px;width:42px;height:42px;font-size:1.2rem;cursor:pointer;color:var(--ink)}
+/* hero */
+.hero{padding:70px 0 90px;background:var(--bg)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5.6vw,4.4rem);margin-bottom:20px}
+.hero h1 em{color:var(--accent);font-style:normal}
+.proof{font-weight:500;margin-bottom:28px;padding-left:14px;border-left:4px solid var(--accent)}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.hvis{position:relative;aspect-ratio:4/5;border-radius:200px 200px var(--r) var(--r);background:var(--accent);overflow:hidden;border:2px solid var(--ink);box-shadow:12px 12px 0 var(--maroon)}
+.hvis img{width:100%;height:100%;object-fit:cover}
+.petal-bg{position:absolute;inset:0;display:grid;place-items:center;opacity:.35}
+.petal-bg svg{width:70%}
+/* trust */
+.trust{background:var(--maroon);color:var(--bg);padding:50px 0}
+.trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:left}
+.trust b{display:block;font-family:var(--serif);font-size:2.6rem;color:var(--accent);line-height:1}
+.trust span{font-size:.92rem}
+/* services */
+.sgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:22px;margin-top:44px}
+.card{background:var(--bg2);border:2px solid var(--ink);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:10px}
+.card:nth-child(1){grid-column:span 3;background:var(--accent)}
+.card:nth-child(2){grid-column:span 3}
+.card:nth-child(3),.card:nth-child(4),.card:nth-child(5){grid-column:span 2}
+.card:nth-child(6){grid-column:span 4;background:var(--leaf);color:var(--bg)}
+.card:nth-child(7){grid-column:span 2}
+.card svg{width:40px;height:40px}
+.card h3{font-size:1.4rem}
+.card p{font-size:.95rem;flex:1}
+.price{font-weight:700;font-size:1.1rem}
+.card .btn{align-self:flex-start;background:var(--bg);color:var(--maroon)}
+/* about */
+.about{background:var(--bg2)}
+.about .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}
+.av{width:150px;height:150px;border-radius:50%;background:var(--maroon);color:var(--bg);display:grid;place-items:center;font:700 3rem var(--serif);border:4px solid var(--accent);margin-bottom:18px}
+.about p{margin-bottom:16px}
+.diff{list-style:none;margin-top:24px;display:grid;gap:10px}
+.diff li{display:flex;gap:12px;align-items:flex-start;font-weight:500}
+.diff svg{width:20px;height:20px;flex:none;margin-top:4px}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:150px;gap:14px;margin-top:40px}
+.gal figure{border-radius:var(--r);overflow:hidden;background:var(--accent);border:2px solid var(--ink);position:relative}
+.gal figure:nth-child(2n){background:var(--leaf)}
+.gal figure:nth-child(3n){background:var(--maroon)}
+.gal img{width:100%;height:100%;object-fit:cover;position:relative}
+.gal figcaption{position:absolute;left:10px;bottom:8px;font-size:.78rem;font-weight:700;color:var(--bg);text-shadow:0 1px 4px #000}
+.gal figure:nth-child(1){grid-column:span 3;grid-row:span 2}
+.gal figure:nth-child(2){grid-column:span 3}
+.gal figure:nth-child(3){grid-column:span 2}
+.gal figure:nth-child(4){grid-column:span 1}
+.gal figure:nth-child(5){grid-column:span 2;grid-row:span 2}
+.gal figure:nth-child(6){grid-column:span 4}
+/* reviews */
+.rgrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-top:40px}
+.rev{padding:26px;border-radius:var(--r);border:2px solid var(--ink);background:var(--bg2)}
+.rev:nth-child(2){transform:translateY(28px);background:var(--accent)}
+.stars{display:flex;gap:3px;margin-bottom:10px}
+.stars svg{width:18px;height:18px}
+.rev p{margin-bottom:14px;font-size:.98rem}
+.rev b{display:block}
+.rev small{opacity:.8}
+/* pricing */
+.plist{max-width:760px;margin-top:36px;border-top:2px solid var(--ink)}
+.plist div{display:flex;justify-content:space-between;gap:20px;padding:15px 0;border-bottom:1px dashed var(--ink)}
+.plist dt{font-weight:500}
+.plist dd{font-weight:700;color:var(--maroon);white-space:nowrap}
+.note{margin-top:18px;font-size:.92rem;opacity:.85}
+/* contact */
+.contact{background:var(--bg2)}
+.cgrid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;margin-top:40px}
+.map{border:2px solid var(--ink);border-radius:var(--r);overflow:hidden;min-height:380px}
+.map iframe{width:100%;height:100%;min-height:380px;border:0}
+.hours{display:grid;grid-template-columns:auto auto;gap:6px 24px;margin:12px 0 24px}
+.hours span:nth-child(odd){font-weight:700}
+.clist{display:grid;gap:10px;list-style:none}
+.clist a{font-weight:700}
+/* footer */
+footer{background:var(--ink);color:var(--bg);padding:80px 0 120px}
+footer .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+footer h2{color:var(--accent);font-size:1.8rem}
+footer ul{list-style:none;display:flex;gap:18px;flex-wrap:wrap;margin:16px 0}
+footer a{text-decoration:none}
+.bigwa{display:block;text-align:center;background:var(--accent);color:var(--ink);padding:26px;border-radius:var(--r);font:700 1.6rem var(--serif);text-decoration:none}
+.copy{grid-column:1/-1;border-top:1px solid #ffffff44;padding-top:20px;font-size:.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.built{text-transform:lowercase;font-size:.8rem}
+/* sticky bar */
+.bar{display:none}
+@media(max-width:1080px){.hero .wrap{gap:30px}nav ul{gap:16px}.rgrid{gap:14px}}
+@media(max-width:820px){
+ section{padding:80px 0}
+ .burger{display:block}
+ nav{position:absolute;top:72px;left:0;right:0;background:var(--bg);border-bottom:2px solid var(--ink);display:none;padding:14px 4%}
+ nav.open{display:block}
+ nav ul{flex-direction:column}
+ nav a{display:block;padding:10px 0}
+ .hcta .btn{display:none}
+ .hero .wrap,.about .wrap,.cgrid,footer .wrap{grid-template-columns:1fr}
+ .hvis{max-width:420px}
+ .trust .wrap{grid-template-columns:1fr 1fr}
+ .sgrid{grid-template-columns:1fr 1fr}
+ .card:nth-child(n){grid-column:span 1}
+ .card:nth-child(1),.card:nth-child(6){grid-column:span 2}
+ .rgrid{grid-template-columns:1fr}
+ .rev:nth-child(2){transform:none}
+ .gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:140px}
+ .gal figure:nth-child(n){grid-column:span 1;grid-row:span 1}
+ .gal figure:nth-child(1){grid-column:span 2;grid-row:span 2}
+ .bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--bg);border-top:2px solid var(--ink);padding:8px 8px calc(8px + env(safe-area-inset-bottom,0px));gap:8px}
+ .bar .btn{padding:12px}
+}
+@media(max-width:520px){
+ body{font-size:16px}
+ .sgrid{grid-template-columns:1fr}
+ .card:nth-child(n){grid-column:span 1}
+ .trust b{font-size:2rem}
+ .logo{font-size:1rem}
+ .btns .btn{flex:1}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <defs>
+  <symbol id="marigold" viewBox="0 0 100 100"><g fill="#E8890C"><ellipse cx="50" cy="20" rx="11" ry="20"/><ellipse cx="50" cy="20" rx="11" ry="20" transform="rotate(45 50 50)"/><ellipse cx="50" cy="20" rx="11" ry="20" transform="rotate(90 50 50)"/><ellipse cx="50" cy="20" rx="11" ry="20" transform="rotate(135 50 50)"/><ellipse cx="50" cy="20" rx="11" ry="20" transform="rotate(180 50 50)"/><ellipse cx="50" cy="20" rx="11" ry="20" transform="rotate(225 50 50)"/><ellipse cx="50" cy="20" rx="11" ry="20" transform="rotate(270 50 50)"/><ellipse cx="50" cy="20" rx="11" ry="20" transform="rotate(315 50 50)"/></g><circle cx="50" cy="50" r="13" fill="#7A1F1F"/></symbol>
+  <symbol id="star" viewBox="0 0 24 24"><path fill="#7A1F1F" d="M12 2l3 7 7.5.6-5.7 4.9 1.8 7.3L12 18l-6.6 3.8 1.8-7.3L1.5 9.6 9 9z"/></symbol>
+  <symbol id="tick" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#4B5D2A"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#F7F0E3" stroke-width="2.5" fill="none"/></symbol>
+ </defs>
+</svg>
+
+<header>
+ <div class="wrap hd">
+  <a class="logo" href="#top"><svg><use href="#marigold"/></svg><span>Shree Gopal<br>Mithai Bhandar</span></a>
+  <nav id="nav" aria-label="Main">
+   <ul>
+    <li><a href="#sweets">Sweets</a></li>
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#prices">Rates</a></li>
+    <li><a href="#contact">Visit</a></li>
+   </ul>
+  </nav>
+  <div class="hcta">
+   <a class="btn line sm" href="tel:+919800000000">Call</a>
+   <a class="btn fill sm" href="https://wa.me/919800000000?text=Hello%20Shree%20Gopal%20Mithai%20Bhandar%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp</a>
+   <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+  </div>
+ </div>
+</header>
+
+<main id="top">
+<section class="hero" style="padding-top:70px">
+ <div class="wrap">
+  <div>
+   <div class="eyebrow"><svg><use href="#marigold"/></svg>Station Road, Basti</div>
+   <h1>Fresh desi ghee mithai, made every morning <em>before the shutter goes up.</em></h1>
+   <p class="proof">Serving Basti families since 1987. Over 4,000 boxes packed every Diwali.</p>
+   <div class="btns">
+    <a class="btn fill" href="https://wa.me/919800000000?text=Hello%2C%20I%20found%20you%20on%20Google.%20Please%20share%20today%27s%20sweets%20and%20rates." target="_blank" rel="noopener">Order on WhatsApp</a>
+    <a class="btn line" href="tel:+919800000000">Call the shop</a>
+   </div>
+  </div>
+  <div class="hvis">
+   <div class="petal-bg"><svg viewBox="0 0 100 100"><use href="#marigold"/></svg></div>
+   <img src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=800&auto=format&fit=crop" alt="Assorted Indian sweets on a plate" onerror="this.style.display='none'">
+  </div>
+ </div>
+</section>
+
+<div class="trust">
+ <div class="wrap">
+  <div><b>39</b><span>years on Station Road</span></div>
+  <div><b>4,000+</b><span>Diwali boxes every year</span></div>
+  <div><b>100%</b><span>pure desi ghee, no vanaspati</span></div>
+  <div><b>4.8</b><span>average Google rating</span></div>
+ </div>
+</div>
+
+<section id="sweets">
+ <div class="wrap">
+  <div class="eyebrow"><svg><use href="#marigold"/></svg>What we make</div>
+  <h2>Sweets from the same kadhai, the same way.</h2>
+  <p>Everything is cooked fresh each morning. Prices are per kg unless mentioned.</p>
+  <div class="sgrid">
+   <article class="card"><svg><use href="#marigold"/></svg><h3>Motichoor Laddu</h3><p>Tiny boondi, soaked in warm sugar syrup, bound with ghee and finished with cardamom. Our most ordered sweet for every puja.</p><div class="price">&#8377;560 / kg</div><a class="btn sm" href="https://wa.me/919800000000?text=Hello%2C%20I%20want%20to%20order%20Motichoor%20Laddu.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+   <article class="card"><svg><use href="#marigold"/></svg><h3>Kaju Katli</h3><p>Thin, smooth cashew fudge with a light silver finish. No flour, no shortcuts.</p><div class="price">&#8377;900 / kg</div><a class="btn sm" href="https://wa.me/919800000000?text=Hello%2C%20I%20want%20to%20order%20Kaju%20Katli.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+   <article class="card"><svg><use href="#marigold"/></svg><h3>Gulab Jamun</h3><p>Soft khoya jamuns, served warm from 4 PM.</p><div class="price">&#8377;18 / piece</div><a class="btn sm" href="https://wa.me/919800000000?text=Hello%2C%20I%20want%20to%20order%20Gulab%20Jamun.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+   <article class="card"><svg><use href="#marigold"/></svg><h3>Rasmalai</h3><p>Chhena discs in thick saffron milk. Made in small batches, so call before 12 noon.</p><div class="price">&#8377;30 / piece</div><a class="btn sm" href="https://wa.me/919800000000?text=Hello%2C%20I%20want%20to%20order%20Rasmalai.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+   <article class="card"><svg><use href="#marigold"/></svg><h3>Samosa and Kachori</h3><p>Hot from 7 AM with khatti-meethi chutney.</p><div class="price">&#8377;12 / piece</div><a class="btn sm" href="https://wa.me/919800000000?text=Hello%2C%20I%20want%20to%20order%20Samosa%20and%20Kachori.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+   <article class="card"><svg><use href="#marigold"/></svg><h3>Festival Gift Boxes</h3><p>Assorted mithai in a sealed box with your family name or company logo. Bulk orders for weddings, offices and Diwali get doorstep delivery within Basti. Please order 3 days early.</p><div class="price">From &#8377;450 / box</div><a class="btn sm" href="https://wa.me/919800000000?text=Hello%2C%20I%20want%20to%20enquire%20about%20Festival%20Gift%20Boxes%20and%20bulk%20orders." target="_blank" rel="noopener">Enquire on WhatsApp</a></article>
+   <article class="card"><svg><use href="#marigold"/></svg><h3>Besan Ladoo</h3><p>Roasted slowly until the whole lane smells of it.</p><div class="price">&#8377;480 / kg</div><a class="btn sm" href="https://wa.me/919800000000?text=Hello%2C%20I%20want%20to%20order%20Besan%20Ladoo.%20Please%20share%20availability." target="_blank" rel="noopener">Order on WhatsApp</a></article>
+  </div>
+ </div>
+</section>
+
+<section id="about" class="about">
+ <div class="wrap">
+  <div>
+   <div class="av" aria-hidden="true">GP</div>
+   <div class="eyebrow">Owner</div>
+   <h3 style="font-size:1.6rem">Gopal Prasad Gupta</h3>
+   <p style="margin-top:6px">Second generation, Shree Gopal Mithai Bhandar</p>
+  </div>
+  <div>
+   <h2>My father started with one kadhai and a borrowed table.</h2>
+   <p>In 1987 my father, Shri Ram Gopal Gupta, began selling jalebi outside this same spot on Station Road. I was nine and my job was to wash the trays before school. I still remember the smell of ghee on my school shirt.</p>
+   <p>Today I stand at the same counter. Some of you buying laddus for your daughter's wedding are the children who once bought two-rupee jalebis from my father. That is the kind of customer we keep.</p>
+   <p>We do not chase trends. We make what your grandmother would recognise, with the same ghee and the same patience.</p>
+   <ul class="diff">
+    <li><svg><use href="#tick"/></svg>Only pure desi ghee. Bill and supplier shown if you ask.</li>
+    <li><svg><use href="#tick"/></svg>Everything made fresh that morning, never reheated.</li>
+    <li><svg><use href="#tick"/></svg>You may taste before you buy, always.</li>
+    <li><svg><use href="#tick"/></svg>Sugar-light options for elders on request.</li>
+    <li><svg><use href="#tick"/></svg>Same recipes since 1987.</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section id="gallery">
+ <div class="wrap">
+  <div class="eyebrow"><svg><use href="#marigold"/></svg>From the counter</div>
+  <h2>A look inside the shop.</h2>
+  <div class="gal">
+   <figure><img loading="lazy" src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=800&auto=format&fit=crop" alt="Tray of assorted mithai" onerror="this.style.display='none'"><figcaption>Morning tray</figcaption></figure>
+   <figure><img loading="lazy" src="https://images.unsplash.com/photo-1666190092689-e3968aa0c8e1?w=800&auto=format&fit=crop" alt="Gulab jamun in syrup" onerror="this.style.display='none'"><figcaption>Gulab jamun</figcaption></figure>
+   <figure><img loading="lazy" src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=800&auto=format&fit=crop" alt="Indian sweets display" onerror="this.style.display='none'"><figcaption>Laddus</figcaption></figure>
+   <figure><img loading="lazy" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop" alt="Fried snacks" onerror="this.style.display='none'"><figcaption>Samosa</figcaption></figure>
+   <figure><img loading="lazy" src="https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=800&auto=format&fit=crop" alt="Festival sweet box" onerror="this.style.display='none'"><figcaption>Festival box</figcaption></figure>
+   <figure><img loading="lazy" src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&auto=format&fit=crop" alt="Traditional sweets on a thali" onerror="this.style.display='none'"><figcaption>Thali of mithai</figcaption></figure>
+  </div>
+ </div>
+</section>
+
+<section id="reviews" style="background:var(--bg)">
+ <div class="wrap">
+  <div class="eyebrow"><svg><use href="#marigold"/></svg>Kind words</div>
+  <h2>What the neighbourhood says.</h2>
+  <div class="rgrid">
+   <div class="rev"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><p>We ordered 40 boxes for my sister's shaadi. Delivered a day early, and every uncle asked where the motichoor came from.</p><b>Sunita Verma</b><small>Gandhi Nagar</small></div>
+   <div class="rev"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><p>Been buying Sunday samosas here for 20 years. Same taste, same price honesty. Gopal bhaiya still remembers my order.</p><b>Rakesh Tiwari</b><small>Civil Lines</small></div>
+   <div class="rev"><div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div><p>Ordered kaju katli on WhatsApp at night, picked up at 9 AM. Fresh and not too sweet. Mummy approved.</p><b>Priya Singh</b><small>Ramnagar</small></div>
+  </div>
+ </div>
+</section>
+
+<section id="prices" style="padding-top:140px">
+ <div class="wrap">
+  <div class="eyebrow"><svg><use href="#marigold"/></svg>Rates</div>
+  <h2>Simple rates. No surprises at the counter.</h2>
+  <dl class="plist">
+   <div><dt>Motichoor Laddu</dt><dd>&#8377;560 / kg</dd></div>
+   <div><dt>Kaju Katli</dt><dd>&#8377;900 / kg</dd></div>
+   <div><dt>Besan Ladoo</dt><dd>&#8377;480 / kg</dd></div>
+   <div><dt>Milk Barfi</dt><dd>&#8377;520 / kg</dd></div>
+   <div><dt>Gulab Jamun</dt><dd>&#8377;18 / piece</dd></div>
+   <div><dt>Rasmalai</dt><dd>&#8377;30 / piece</dd></div>
+   <div><dt>Samosa or Kachori</dt><dd>&#8377;12 / piece</dd></div>
+   <div><dt>Festival Gift Box</dt><dd>from &#8377;450</dd></div>
+  </dl>
+  <p class="note">Rates may change slightly during Diwali and wedding season. Free home delivery within Basti town on orders above &#8377;1,000.</p>
+  <p style="margin-top:20px"><a class="btn fill" href="https://wa.me/919800000000?text=Hello%2C%20please%20share%20the%20full%20rate%20list." target="_blank" rel="noopener">Ask for full rate list</a></p>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="wrap">
+  <div class="eyebrow"><svg><use href="#marigold"/></svg>Visit us</div>
+  <h2>Come in, say hello, taste first.</h2>
+  <div class="cgrid">
+   <div class="map"><iframe title="Shop location on Google Maps" loading="lazy" src="https://maps.google.com/maps?q=Station%20Road%2C%20Basti%2C%20Uttar%20Pradesh%20272001&amp;output=embed"></iframe></div>
+   <div>
+    <h3>Opening hours</h3>
+    <div class="hours"><span>Monday to Saturday</span><span>7 AM to 10 PM</span><span>Sunday</span><span>7 AM to 11 PM</span><span>Festival days</span><span>6 AM to 11 PM</span></div>
+    <h3>Reach us</h3>
+    <ul class="clist" style="margin-top:12px">
+     <li>12, Station Road, near Hanuman Mandir, Basti, Uttar Pradesh 272001</li>
+     <li><a href="tel:+919800000000">Call: +91 98000 00000</a></li>
+     <li><a href="https://wa.me/919800000000?text=Hello%2C%20I%20need%20directions%20to%20your%20shop." target="_blank" rel="noopener">WhatsApp us</a></li>
+     <li><a href="mailto:shreegopalmithai@example.com">shreegopalmithai@example.com</a></li>
+    </ul>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div>
+   <h2>Shree Gopal Mithai Bhandar</h2>
+   <p>Pure ghee mithai, made fresh on Station Road since 1987.</p>
+   <ul>
+    <li><a href="#sweets">Sweets</a></li><li><a href="#about">Our Story</a></li><li><a href="#prices">Rates</a></li><li><a href="#contact">Visit</a></li>
+   </ul>
+  </div>
+  <a class="bigwa" href="https://wa.me/919800000000?text=Hello%20Shree%20Gopal%20Mithai%20Bhandar%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+  <div class="copy"><span>&copy; <span id="yr">2026</span> Shree Gopal Mithai Bhandar. All rights reserved.</span><span class="built">built with ❤️ by 21.coders</span></div>
+ </div>
+</footer>
+
+<div class="bar">
+ <a class="btn line" href="tel:+919800000000">Call</a>
+ <a class="btn fill" href="https://wa.me/919800000000?text=Hello%20Shree%20Gopal%20Mithai%20Bhandar%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var b=document.getElementById('burger'),n=document.getElementById('nav');
+b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded',false)}});
+</script>
+</body>
+</html>
